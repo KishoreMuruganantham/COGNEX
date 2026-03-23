@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pkl
+*.egg-info/
+dist/
+build/
+.env
+*.log
+node_modules/
+.DS_Store
+Thumbs.db

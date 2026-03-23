@@ -1,0 +1,9 @@
+services:
+  cognex:
+    build: .
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    environment:
+      - COGNEX_INDEX=cognex_index.pkl
+      - COGNEX_KB=knowledge_base.jsonl
